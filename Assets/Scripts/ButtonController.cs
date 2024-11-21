@@ -40,7 +40,7 @@ public class ButtonController : MonoBehaviour
             }   
             await Task.Yield();
         }
-        await Task.Delay(1000);
+        await Task.Delay(3000);
 
         asyncLoadScene.allowSceneActivation = true;
     }
